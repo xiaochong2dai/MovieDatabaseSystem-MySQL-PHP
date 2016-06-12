@@ -1,5 +1,5 @@
 # Goal
-• Built a movie-database system with a user-friendly web interface supported by MySQL.
+• Built a movie-database system with a user-friendly web interface supported by MySQL.<br>
 • Wrote PHP pages that execute queries to find the requested info and render pages to users.
 
 # Data 
