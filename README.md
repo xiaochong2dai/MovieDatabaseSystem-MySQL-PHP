@@ -9,12 +9,12 @@ Data is in the 'data' folder.
 Please see 'DescriptionOfOurDatasetAndTableSchema.pdf'.
 
 # Loading and Querying the Dataset
-• SQL script named 'create.sql' creates all tables above.
-• Create a databases 'MovieDatabase'.
+• SQL script named 'create.sql' creates all tables above.<br>
+• Create a databases 'MovieDatabase'.<br>
 CREATE DATABASE MovieDatabase;
-• Create the tables in the CS143 database, using a command like:
-mysql -u root -p MovieDatabase < create.sql (root is the username, and it will hint for password)
-• Create a MySQL script, named 'load.sql', that loads all our provided data into the created tables. 
+• Create the tables in the CS143 database, using a command like:<br>
+mysql -u root -p MovieDatabase < create.sql (root is the username, and it will hint for password)<br>
+• Create a MySQL script, named 'load.sql', that loads all our provided data into the created tables. <br>
 mysql -u root -p MovieDatabase < load.sql 
 
 # Building a Web Query Interface
